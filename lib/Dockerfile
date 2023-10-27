@@ -1,6 +1,6 @@
 FROM quay.io/sampandey001/secktor
-RUN git clone https://github.com/prabathLK/Secktor-Md /root/prabathLK
-WORKDIR /root/prabathLK/
+RUN git clone https://github.com/vishwamihi/PRABATH_MD-fPR8 /root/vishwamihi
+WORKDIR /root/vishwamihi/
 RUN npm install npm@latest
 RUN yarn install --network-concurrency 1
 EXPOSE 8000
